@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/MySimplePortfolio/static/css/main.cf86c59c.css",
+    "main.js": "/MySimplePortfolio/static/js/main.2cd18718.js",
+    "static/media/letrisLogo.png": "/MySimplePortfolio/static/media/letrisLogo.21d694279b7fa3f6c1fb.png",
+    "index.html": "/MySimplePortfolio/index.html",
+    "main.cf86c59c.css.map": "/MySimplePortfolio/static/css/main.cf86c59c.css.map",
+    "main.2cd18718.js.map": "/MySimplePortfolio/static/js/main.2cd18718.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf86c59c.css",
+    "static/js/main.2cd18718.js"
+  ]
+}
