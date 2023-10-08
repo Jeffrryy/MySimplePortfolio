@@ -1,0 +1,47 @@
+.contact {
+  flex-direction: column;
+  gap: 20px;
+  
+}
+.iconContact{
+  position: absolute;
+ margin-left: 140px;
+ transform: translateY(-35px);
+ display: flex;
+ flex-direction: row;
+}
+.iconContactEmail{
+  position: absolute;
+ margin-left: 123px;
+ transform: translateY(-35px);
+ display: flex;
+ flex-direction: row;
+}
+.linkEmail {
+  color: var(--clr-primary);
+  /* padding: 0 0 0.3em 0; */
+  /* position: relative; */
+}
+
+.linkEmail:hover {
+  color: var(--clr-primary);
+}
+
+.linkEmail::before {
+  content: '';
+  display: inline;
+  width: 0%;
+  height: 0.2em;
+  position: absolute;
+  bottom: 0;
+  background-color: var(--clr-primary);
+  transition: width 0.2s ease-in;
+}
+
+.linkEmail:hover::before,
+.linkEmail:focus::before {
+  width: 100%;
+}
+.iconHover:hover{
+  color: var(--clr-primary);
+}

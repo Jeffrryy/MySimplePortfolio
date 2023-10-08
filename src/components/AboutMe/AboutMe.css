@@ -1,0 +1,188 @@
+.title{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.title__About{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.Face{
+    width: 40vh;
+    height: 40vh;
+    border-radius: 40px;
+    border: 1px;
+    display: flex;
+    padding-top: 20px;
+    margin-left: 300px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.aboutme__desc{
+    font-size: 1.3rem;
+    
+}
+.listExperienceContainer{
+        padding: 10px;
+        
+}
+.listTitle{
+    padding: 20px;
+    text-align: center;
+}
+.listExperience{
+    
+     padding: 10px;
+     gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.containerListBar{
+    
+    width: 100%;
+	/* margin: 5px 0; */
+	
+}
+.containerListBar > p{
+    height: 100%;
+	/* display: block; */
+
+    text-transform: initial;
+    background-color: var(--clr-bg-alt);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    border: 0;
+}
+.percent{
+    float: right;
+	/* margin-right: 26% */
+}
+.percent p{
+	font-size:17px;
+	color:#2a404e;
+	font-weight: bold;
+}
+.center h3{
+    text-align: center;
+}
+.wrapper{
+    width: 100%;
+    min-width: 570px;
+    position: relative;
+    /* transform: translate(-50%,-50%); */
+    /* left: 50%; */
+    top: 50%;
+}
+.container{
+    width: 100%;
+    padding: 30px 30px 50px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+} 
+
+.titleSkills {
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+}
+.skills:not(:last-child){
+    margin-bottom: 30px;
+}
+.details{
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.bar{
+    position: relative;
+ 
+    border: 2px solid #0d96e0;
+ 
+    border-radius: 20px;
+  
+}
+.bar div{
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #0d96e0;
+   
+ 
+}
+#html-bar{
+    animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+    100%{
+        width: 80%;
+    }
+}
+#css-bar{
+    animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+    100%{
+        width: 50%;
+    }
+}
+#js-bar{
+    animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+    100%{
+        width: 60%;
+    }
+}
+#ReactJs-bar{
+    animation: ReactJs-fill 2s forwards;
+}
+@keyframes ReactJs-fill{
+    100%{
+        width: 73%;
+    }
+} 
+#Unity-bar{
+    animation: Unity-fill 2s forwards;
+}
+@keyframes Unity-fill{
+    100%{
+        width: 30%;
+    }
+} 
+#Git-bar{
+    animation: Git-fill 2s forwards;
+}
+@keyframes Git-fill{
+    100%{
+        width: 40%;
+    }
+} 
+#Kotlin-bar{
+    animation: Kotlin-fill 2s forwards;
+}
+@keyframes Kotlin-fill{
+    100%{
+        width: 40%;
+    }
+} 
+#AndroidStudio-bar{
+    animation: AndroidStudio-fill 2s forwards;
+}
+@keyframes AndroidStudio-fill{
+    100%{
+        width: 69%;
+    }
+} 
+#Firebase-bar{
+    animation: Firebase-fill 2s forwards;
+}
+@keyframes Firebase-fill{
+    100%{
+        width: 50%;
+    }
+} 
