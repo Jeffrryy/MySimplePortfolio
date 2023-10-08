@@ -3,7 +3,7 @@ import {aboutme} from '../../portfolio'
 import './AboutMe.css'
 
 const AboutMe = () => {
-    const {intro,experiences} = aboutme;
+    const {intro,hobby} = aboutme;
     
   return (
     <section id='aboutme'>
@@ -12,6 +12,17 @@ const AboutMe = () => {
         {intro && (                      
                           <div>
                              <p className='aboutme__desc'>{intro}</p>
+                          </div>                   
+        )}
+        {hobby && (                      
+                          <div>
+                             <p className='aboutme__desc'>{hobby}</p>
+                             <h2 className='titleML'>My Mobile Legend</h2>
+                             <div className='aboutme_desc'>
+                             <p>Nickname:Jeffryy</p>
+                             <p>ID:133650430(2668)</p>
+                             </div>
+                            
                           </div>                   
         )}
 

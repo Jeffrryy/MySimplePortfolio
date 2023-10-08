@@ -7,11 +7,11 @@ import {useTypewriter,Cursor } from 'react-simple-typewriter';
 const About = () => {
   const { name, role, description,social } = about
   const [text] = useTypewriter({
-    words:['Nicko Christian','just an average student in letris 2'],
+    words:['A student in SMK Letris Indonesia 2','A 16 y.o that like to do nothing while theres nothing to do'],
     Cursor,
-      typeSpeed:100,
-      deleteSpeed:70,
-      delaySpeed:4000,
+      typeSpeed:50,
+      deleteSpeed:40,
+      delaySpeed:1000,
     loop:true
   })
   return (
@@ -19,13 +19,13 @@ const About = () => {
       {name && (
         <h1>
           Hi, I am <span className='about__name'>
-            {text}
-            <Cursor/>
+            {name}
+            
       </span> 
         </h1>
       )}
 
-      {role && <h2 className='about__role'>A {role} .</h2>}
+       <h2 className='about__role'> {text} <Cursor/> </h2>
       <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact center'>

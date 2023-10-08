@@ -63,6 +63,7 @@ const header = {
   
   const aboutme = {
       intro: "Hello,i am Nicko Christian, a passionate and driven individual from South Tangerang, Indonesia. I am currently pursuing my education at SMK Letris Indonesia 2, where I have developed a deep interest in the fields of Backend Development and Game Development. I have been schooling in Letris 2 for about 2 years now and  now im 11th grade. And with a strong foundation in programming and a creative flair, I aspire to make a significant mark in these exciting domains.",
+      hobby:"I like playing games alot. Because i like to play games thats why i want to create a video games on my own. I'm good at all games especially Mobile Legends. If you want to add me just add me lol. "
       
   }
   export { header, about, projects, skills, contact,aboutme }
