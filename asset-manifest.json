@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/MySimplePortfolio/static/css/main.06e478b1.css",
-    "main.js": "/MySimplePortfolio/static/js/main.bb3b41fe.js",
+    "main.css": "/MySimplePortfolio/static/css/main.e4c4db76.css",
+    "main.js": "/MySimplePortfolio/static/js/main.ab288d93.js",
     "static/media/letrisLogo.png": "/MySimplePortfolio/static/media/letrisLogo.21d694279b7fa3f6c1fb.png",
     "index.html": "/MySimplePortfolio/index.html",
-    "main.06e478b1.css.map": "/MySimplePortfolio/static/css/main.06e478b1.css.map",
-    "main.bb3b41fe.js.map": "/MySimplePortfolio/static/js/main.bb3b41fe.js.map"
+    "main.e4c4db76.css.map": "/MySimplePortfolio/static/css/main.e4c4db76.css.map",
+    "main.ab288d93.js.map": "/MySimplePortfolio/static/js/main.ab288d93.js.map"
   },
   "entrypoints": [
-    "static/css/main.06e478b1.css",
-    "static/js/main.bb3b41fe.js"
+    "static/css/main.e4c4db76.css",
+    "static/js/main.ab288d93.js"
   ]
 }
