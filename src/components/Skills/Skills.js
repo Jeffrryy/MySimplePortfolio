@@ -1,7 +1,7 @@
 import uniqid from 'uniqid'
 import { skills } from '../../portfolio'
 import './Skills.css'
-
+import HtmlIcon from '@mui/icons-material/Html';
 const Skills = () => {
   if (!skills.length) return null
 
@@ -11,10 +11,37 @@ const Skills = () => {
       <ul className='skills__list'>
         {skills.map((skill) => (
           <li key={uniqid()} className='skills__list-item btn btn--plain'>
-            {skill}
+           {skill}
           </li>
+          
         ))}
       </ul>
+  {/* {skill.skills.map((item) => (
+                  <div>
+                    {item.name}
+                    {item.image}
+                  </div>
+                ))} */}
+      {/* <SkillsContainer>
+          {skills.map((skill) => (
+            <Skill>
+              <SkillTitle>{skill.title}</SkillTitle>
+              <SkillList>
+                {skill.skills.map((item) => (
+                  <SkillItem>
+                    <SkillImage src={item.image}/>
+                    {item.name}
+                  </SkillItem>
+                ))}
+              </SkillList>
+            </Skill>
+          ))}
+
+        </SkillsContainer> */}
+
+
+
+
       <div className="wrapper">
         <div className="shape-1"></div>
         <div className="shape-2"></div>
