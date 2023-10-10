@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/MySimplePortfolio/static/css/main.e4c4db76.css",
-    "main.js": "/MySimplePortfolio/static/js/main.ab288d93.js",
+    "main.css": "/MySimplePortfolio/static/css/main.fdda0d1b.css",
+    "main.js": "/MySimplePortfolio/static/js/main.7334ebcb.js",
     "static/media/letrisLogo.png": "/MySimplePortfolio/static/media/letrisLogo.21d694279b7fa3f6c1fb.png",
+    "static/media/kotlin-logo.png": "/MySimplePortfolio/static/media/kotlin-logo.fe9636198dea89926cbc.png",
+    "static/media/Android Studio.svg": "/MySimplePortfolio/static/media/Android Studio.5a74ab7b5ada5b8c6cae7babb84d33b0.svg",
     "index.html": "/MySimplePortfolio/index.html",
-    "main.e4c4db76.css.map": "/MySimplePortfolio/static/css/main.e4c4db76.css.map",
-    "main.ab288d93.js.map": "/MySimplePortfolio/static/js/main.ab288d93.js.map"
+    "main.fdda0d1b.css.map": "/MySimplePortfolio/static/css/main.fdda0d1b.css.map",
+    "main.7334ebcb.js.map": "/MySimplePortfolio/static/js/main.7334ebcb.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4c4db76.css",
-    "static/js/main.ab288d93.js"
+    "static/css/main.fdda0d1b.css",
+    "static/js/main.7334ebcb.js"
   ]
 }
