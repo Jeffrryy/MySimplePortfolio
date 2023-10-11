@@ -60,6 +60,14 @@ const header = {
       stack: ['ReactJs'],
       sourceCode: 'https://github.com/Jeffrryy/Reactjskelompokniko',
       livePreview: 'https://jeffrryy.github.io/Reactjskelompokniko/',
+    },
+    {
+      name: 'Real-Time Private Chat App Reactjs',
+      description:
+        'A Real-Time Private Chat App using ReactJs And Firebase.',
+      stack: ['ReactJs', 'FireBase','SASS'],
+      sourceCode: 'https://github.com/Jeffrryy/nikoChatAppReact',
+      livePreview: ' https://jeffrryy.github.io/nikoChatAppReact/',
     }
    
   ]
